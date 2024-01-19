@@ -1328,14 +1328,22 @@
   dependencies:
     lib0 "^0.2.47"
 
-"@hocuspocus/provider@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@hocuspocus/provider/-/provider-1.0.0-beta.6.tgz#5058ecb043516c9729069723a68327954aff2897"
-  integrity sha512-Plgq9vfiHXsEnHpvwWobUs+lEnsh5qIrOiXbvK8slLnDcVBvFcrmYbC4MBBklWA0N60EY4kVFpRVBsZfoohR0w==
+"@hocuspocus/common@^2.2.3":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@hocuspocus/common/-/common-2.9.0.tgz#0647c1f8e240565fb9593b498821b968261391f8"
+  integrity sha512-VHqxf1Qov4PULmoevRV4hEyxfEGNtdCMDQTU0C1C6ZR6ImDAqnpuzzcxH5ppkZZiiSZwDWxMxxegFt2e3alDEA==
   dependencies:
-    "@hocuspocus/common" "^1.0.0-beta.6"
+    lib0 "^0.2.87"
+
+"@hocuspocus/provider@^2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@hocuspocus/provider/-/provider-2.2.3.tgz#a5d058567c3ffba4c95b14da306706ddf25b00c9"
+  integrity sha512-r/kMzXwJLL1+Vd5SOD7CYqBr9/bK1hm5445gs3/+ss9Wt8zH1JVE2AtK5shNc+3VYpyNb3MAvdZx5OKx9JaSPg==
+  dependencies:
+    "@hocuspocus/common" "^2.2.3"
     "@lifeomic/attempt" "^3.0.2"
-    lib0 "^0.2.46"
+    lib0 "^0.2.47"
+    ws "^7.5.9"
 
 "@hocuspocus/server@^1.0.0-beta.6":
   version "1.0.0-beta.6"
@@ -10425,10 +10433,10 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lib0@^0.2.35, lib0@^0.2.42, lib0@^0.2.46, lib0@^0.2.47, lib0@^0.2.49:
-  version "0.2.49"
-  resolved "https://registry.yarnpkg.com/lib0/-/lib0-0.2.49.tgz#7addb5075063d66ea2c55749e5aeaa48e36278c8"
-  integrity sha512-ziwYLe/pmI9bjHsAehm4ApuVfZ+q+sbC+vO6Z5+KM+0Fe0MrTLwZSDkJ+cElnhFNQ0P6z/wVkRmc5+vTmImJ9A==
+lib0@^0.2.35, lib0@^0.2.42, lib0@^0.2.46, lib0@^0.2.47, lib0@^0.2.49, lib0@^0.2.87:
+  version "0.2.88"
+  resolved "https://registry.yarnpkg.com/lib0/-/lib0-0.2.88.tgz#18618e0c3b63f6260255eb760f9247d9cc6c6a5b"
+  integrity sha512-KyroiEvCeZcZEMx5Ys+b4u4eEBbA1ch7XUaBhYpwa/nPMrzTjUhI4RfcytmQfYoTBPcdyx+FX6WFNIoNuJzJfQ==
   dependencies:
     isomorphic.js "^0.2.4"
 
@@ -16048,10 +16056,10 @@ write-file-atomic@^4.0.1:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
-ws@^7.5.3:
-  version "7.5.6"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
-  integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
+ws@^7.5.3, ws@^7.5.9:
+  version "7.5.9"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 ws@^8.11.0, ws@^8.2.3, ws@^8.5.0:
   version "8.11.0"
